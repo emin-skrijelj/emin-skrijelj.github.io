@@ -1,10 +1,10 @@
 ---
-title: Php Challenges
+title: Php Web Challenges   
 published: 2024-05-29
 description: 'In this post I covered 3 php challenges. Two fairly easy php challenges for a warmup. The last challenge takes patience to read and understand since its pretty insane'
-image: '../../assets/images/ppp.png'
+image: '../../assets/images/phpfull.png'
 tags: [Php, Source Code Analysis]
-category: ''
+category: 'Web'
 draft: false 
 ---
 
@@ -14,9 +14,9 @@ In this blog we will do some small php source code reviews in which you will hop
 
 There will be three challenges, the first two are warmups for the 3rd one haha:
 
-- Challenge 1 -> Easy
-- Challenge 2 -> Easy
-- Challenge 3 -> Insane++
+> - [Challenge 1 -> WAF Bypass - Easy](#challenge-1)
+> - [Challenge 2 -> Regex Bypass - Easy](#challenge-2)
+> - [Challenge 3 -> Arbitrary Method Invocation in PHP  - Insane](#challenge-3)
 
 ## Challenge 1
 
