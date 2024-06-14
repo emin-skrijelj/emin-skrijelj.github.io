@@ -136,7 +136,7 @@ class Admin(User):
 
 In this file we can see that `User` class is defined, the next class is `HR` that is a child class of `User`, after that comes `Recruiter` which is a child class of `HR` that is a child of `User`, the last one is class `Admin` which as the `HR` class is a direct child of `User` class. Do you see the pattern here? It doesn't matter what class you choose here (besides `User`) it all points to the `User` class being the parrent class to all classes at the end. This means we can basically use any of these classes as a gadget to pollute our `User` parent class and all of the other classes will inherit the polluted value :D. But on the `/edit` endpoint we can see the `merge` function uses `Employee` class. No problem, that class also inherits `User` class so we can use simple exploit that will pollute all classes at once. Lets get onto it:
 
-![employe](/src/assets/images/emploji.png)
+![employe](../../assets/images/emploji.png)
 Employee class
 
 Exploit Payload:
@@ -158,10 +158,10 @@ In this challenge we are supposed to use the `CSS Injection` attack to exfiltrat
 On the challenge's website we can see a message box in which we can write, and a button to send the message. After sending a message we get redirected to our messages id. Not much of site functionality that we have here. In the source code we can see that we have a bot that visits the URL and thats basically it.
 
 Index Page:
-![kalahari index](/src/assets/images/kalaindex.png)
+![kalahari index](../../assets/images/kalaindex.png)
 
 Redirect after sending a message:
-![kalahari messages](/src/assets/images/kalasent.png)
+![kalahari messages](../../assets/images/kalasent.png)
 
 While reading the source code we can see that there is a csp header being set on `/messages` endpoint, reading through this csp we can see we cant really get the flag throught XSS. The only thing that seems to be fully allowed `style-src`. It reminded me of the similar HackTheBox challenge I've done before that had CSS Injection and was really similar to this.
 
