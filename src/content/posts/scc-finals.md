@@ -15,8 +15,8 @@ In this blog I will do writeups for challenges that were on SCC (Serbian CyberSe
 If you are not interested in reading the whole blog, you can skip to the desired challenge
 
 > - [Challenge `Recruito` -> Python Prototype Pollution](#challenge-recruito)
-> - [Challenge `Kalahari` -> CSS Injection]()
-> - [Challenge `PHP-FU` -> Arbitrary Method Invocation in PHP]()
+> - [Challenge `Kalahari` -> CSS Injection](#challenge-kalahari)
+> - [Challenge `PHP-FU` -> Arbitrary Method Invocation in PHP](#challenge-php-fu)
 
 
 ## Challenge Recruito
@@ -263,6 +263,6 @@ If you don't understand it ask chatgpt to explain it to you since I won't be goi
 
 I've already covered this challenge in my other blog post so I will just link you to the challenge.
 
-[PHP-FU]
+[PHP-FU](/posts/php-challs/#challenge-3)
 
 I hope you enjoyed this blog post and learned something new. Peace.
