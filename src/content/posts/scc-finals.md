@@ -2,7 +2,7 @@
 title: SCC Finals Web Challenges
 published: 2024-06-13
 description: 'In this blog post I will cover writeups for web challenges that were on Serbian CyberSecurity Challenge Finals'
-image: '/src/assets/images/sccloog.png'
+image: '../../assets/images/sccloog.png'
 tags: [Python,  Php, Prototype Pollution, CSS Injection, Source Code Analysis, CTF]
 category: 'Web'
 draft: false 
